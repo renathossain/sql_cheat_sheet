@@ -26,3 +26,14 @@ SELECT <field1>, <field2> FROM <table_name>;
 
 -- Select all fields
 SELECT * FROM <table_name>;
+```
+
+### SELECT DISTINCT - Retrieve Unique Values
+
+Use `SELECT DISTINCT` to retrieve unique values from specified columns. This command considers the combination of values in the specified columns, ensuring that only distinct combinations are included in the result. If there are duplicates in one of the columns but not in the combination, those rows will still be included in the result.
+
+**Example:**
+```sql
+-- Retrieve distinct combinations
+SELECT DISTINCT <field1>, <field2>, ... FROM table_name;
+```
