@@ -11,10 +11,9 @@ SQL (Structured Query Language) is a powerful tool for managing data in Relation
 ## Installation
 To get started with SQL, you'll need to install an SQL server like MySQL or MariaDB. For installation instructions on Arch-based Linux distributions like Manjaro, [follow this link](https://www.geeksforgeeks.org/how-to-install-and-configure-mysql-on-arch-based-linux-distributionsmanjaro/).
 
-## Basic SQL Commands
+## Query a Table SQL Commands
 
-### SELECT - Retrieve Data
-Use `SELECT` to retrieve data from a table.
+### SELECT - Retrieve Columns 
 
 ```sql
 -- Select a single field
